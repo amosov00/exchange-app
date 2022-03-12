@@ -6,6 +6,10 @@ import store from "./redux";
 import {Provider} from 'react-redux';
 import {BrowserRouter} from 'react-router-dom'
 
+if (!localStorage.getItem(`likedPairs`)) {
+  localStorage.setItem(`likedPairs`, '[]')
+}
+
 
 ReactDOM.render(
   <Provider store={store}>
