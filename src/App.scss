@@ -1,0 +1,61 @@
+.App {
+  padding: 16px;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+  color: gray;
+}
+
+.skeleton {
+  transform: none !important;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.item {
+  height: calc(33.3vh - 32px);
+  font-size: 40px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+
+  &__fee {
+    font-size: 20px;
+  }
+
+  &__image {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  a {
+    margin-right: 10px;
+  }
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  &__arrow-btn {
+    min-width: 40px !important;
+    width: 40px;
+    margin: 10px auto 10px auto !important;
+  }
+
+  &__course {
+    margin-top: 10px !important;
+  }
+}

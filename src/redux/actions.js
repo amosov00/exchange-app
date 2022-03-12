@@ -1,0 +1,7 @@
+export const LOADING_SET = 'LOADING_SET'
+export const SET_PAIRS = 'SET_PAIRS'
+export const SET_LIKE_PAIRS = 'SET_LIKE_PAIRS'
+export const LOAD_PAIRS = 'LOAD_PAIRS'
+export const LOAD_CURRENCY = 'LOAD_CURRENCY'
+export const SET_CURRENCY = 'SET_CURRENCY'
+export const CREATE_SWAP = 'CREATE_SWAP'
